@@ -1,0 +1,32 @@
+COMPLEXO PÉ DA SERRA — PROJETO HTML
+
+Abra index.html no navegador. Os arquivos são HTML, CSS e JavaScript, sem PHP, banco ou painel. Também podem ser enviados diretamente para a pasta pública da hospedagem. O conteúdo de dist/ é a raiz do site; no ZIP, os arquivos já ficam na raiz.
+
+PÁGINAS
+index.html: início, galeria com filtros, mapa e consulta de estadia.
+chales.html: apresentação dos cinco chalés e galeria compartilhada.
+restaurante.html: restaurante separado, refeições fotografadas e contato.
+explorar.html: atrações reais da região, fora do complexo.
+creditos.html e fontes-imagens.json: procedência das imagens.
+
+DADOS CONFIRMADOS PELO GABRIEL
+Cinco chalés, todos com cama de casal. Um restaurante separado.
+
+PONTOS PARA CONFIRMAR COM O RESPONSÁVEL
+O WhatsApp (35) 99992-9842 foi obtido da lista da Coordenadoria de Turismo de Luminárias de 27/01/2026: https://visiteluminarias.com.br/wp-content/uploads/2026/01/HOSPEDAGENS-EM-GERAL-LUMINARIASMG-27012026.pdf
+Há cadastros com outro telefone. Confirme o número antes de apresentar o projeto como canal oficial. Para trocar, altere js/config.js (fonte do comportamento) e os href de fallback dos HTMLs.
+Confirmar localização exata, horários, acesso ao restaurante, capacidade de cada chalé e refeições incluídas. Não foram anunciados preços, estrelas, avaliações, café incluso, piscina privativa ou políticas não confirmadas.
+
+IMAGENS E VÍDEOS
+Todas as fotografias são reais e estão dentro da pasta img/. Nenhuma imagem foi gerada por IA. As imagens do estabelecimento vieram do cadastro público do próprio complexo, identificado como fotos do Google pelo Restaurant Guru. Marcas da fonte foram preservadas. As fotos regionais vieram do portal Visite Luminárias. Antes de uma publicação comercial definitiva, alinhe a autorização de uso das fotos com o cliente e os respectivos autores.
+Não há identificação segura de quais fotos pertencem a cada chalé. Por isso a página apresenta os cinco como conjunto, sem inventar nomes ou atribuir uma foto a uma unidade.
+Nenhum vídeo foi fornecido ou simulado. Há suporte opcional: coloque um vídeo real em img/chales.mp4 ou img/restaurante.mp4 e preencha chaletsVideo ou restaurantVideo em js/config.js. Se o arquivo falhar, o bloco é ocultado e as fotos permanecem disponíveis.
+
+RESERVAS
+O formulário valida as datas e prepara uma mensagem no WhatsApp. Não verifica vagas em tempo real, não confirma reservas e não realiza cobranças. O visitante precisa enviar a mensagem na própria conversa. Nome e datas não são armazenados pelo site.
+
+REFERÊNCIA
+Estrutura inspirada no projeto Borboleta Azul: abertura de tela inteira, cartões em arco, galerias, restaurante, região, animações suaves, mapa e consulta por WhatsApp. Adaptado para HTML e para a identidade do Pé da Serra.
+
+VERIFICAÇÃO
+HTMLs, arquivos de imagem, links internos, âncoras e sintaxe JavaScript conferidos. O navegador de teste não estava disponível neste ambiente; a inspeção visual e a interação em navegadores reais precisam ser conferidas ao abrir o projeto.
